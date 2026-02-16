@@ -9,7 +9,7 @@
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
-        "path": "/getWorkerUpdates"
+        "path": "/zaw"
       }
     }
   }],
