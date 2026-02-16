@@ -8,14 +8,8 @@
     },
     "streamSettings": {
       "network": "ws",
-      "wsSettings": {
-        "path": "/zaw"
-      }
+      "wsSettings": {"path": "/getWorkerUpdates"}
     }
   }],
-  "outbounds": [{
-    "protocol": "freedom",
-    "settings": {}
-  }]
+  "outbounds": [{"protocol": "freedom","settings": {}}]
 }
-
