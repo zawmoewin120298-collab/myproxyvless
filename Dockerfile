@@ -6,4 +6,4 @@ RUN wget https://github.com/cloudflare/cloudflared/releases/latest/download/clou
     chmod +x /usr/local/bin/cloudflared
 WORKDIR /etc/xray
 COPY config.json .
-CMD xray run -c /etc/xray/config.json & cloudflared tunnel --no-autoupdate run --token $TUNNEL_TOKEN
+CMD xray run -c /etc/xray/config.json & sleep 2 && cloudflared tunnel --no-autoupdate run --token ${TUNNEL_TOKEN}
